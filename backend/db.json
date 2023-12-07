@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "Linda Jackson",
+      "email": "lindaJ@april.biz",
+      "phone": "27-720-123-890"
+    },
+    {
+      "id": 2,
+      "title": "Elvis Donald",
+      "email": "elvisDon@live.izz",
+      "phone": "27-737-523-899"
+    },
+    {
+      "email": "lisa@zmail.com",
+      "password": "$2a$10$uu80zbZ1fAuspGvyNN5vveg4rnGQfzQJ8bHrExKJ08MBQw4mHXoVu",
+      "id": 3
+    },
+    {
+      "email": "amanda@zmail.com",
+      "password": "$2a$10$.f..tGc6a5iajiAXLysZW..FTqr7ZfWq72O7nrR2T75RR9SG42PBS",
+      "id": 4
+    },
+    {
+      "email": "thingo@zmail.com",
+      "password": "$2a$10$iHLQ8lAU8EFeSVsRt8erz.HYfnkhDhqiA6NTheiv1AZHCA1ziO.ey",
+      "id": 5
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2023-12-2",
+      "endDate": "2023-12-24",
+      "userId": 1
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 4000,
+      "address": "Homii Brooklyn",
+      "city": "Durban",
+      "street": "Anton Lembede",
+      "price": 2990,
+      "sq_ft": 4.2,
+      "email": "dee@homii.com",
+      "userId": 2
+    }
+  ]
+}

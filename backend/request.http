@@ -1,0 +1,41 @@
+#GET ALL USERS
+GET  http://[::1]:4000/users
+###
+
+#GET A SINGLE USER
+GET  http://[::1]:4000/users/2
+###
+#REGISTER A USER
+POST http://[::]:4000/register
+Content-Type: application/json
+
+{
+    "email": "thingo@zmail.com",
+    "password": "thingo123456"
+}
+###
+
+POST http://[::]:4000/login
+Content-Type: application/json
+
+{
+    "email": "thingo@zmail.com",
+    "password": "thingo123456"
+}
+###
+
+#GET ALL BOOKINGS
+GET http://[::1]:4000/bookings
+###
+
+#GET ALL BOOKINGS FOR A USER
+GET http://[::1]:4000/users/2/bookings
+###
+GET http://[::1]:4000/listings
+
+# content-type: application/json
+
+# {
+#     "title": "airbnb clone",
+#     "author": "lungile"
+# }
