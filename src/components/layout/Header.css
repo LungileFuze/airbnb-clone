@@ -5,15 +5,12 @@
     position: sticky;
     top: 0;
     padding-top: 2px;
-    background-color: #fff;
+    background-color: var(--white);
     z-index: 100;
     width: 100%;
     line-height: 1.375rem;
     height: 83px;
-    border-bottom: 1px solid lightgrey;
-    /* font-size: .875rem;
-    color: #222222;
-    font-weight: 600; */
+    border-bottom: 1px solid var(--grey);
 }
 
 .header-logo {
@@ -29,7 +26,7 @@
     max-width: fit-content;
     padding: 10px;
     height: 32px;
-    border: 1px solid  #dddddd;;
+    border: 1px solid  var(--grey);
     border-radius: 40px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
 }
@@ -38,7 +35,7 @@
     border: none;
     padding: 10px;
     outline-width: 0;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 10px;
     font-size: .890rem;
     color: #222222;
@@ -52,12 +49,12 @@
 
 .header-center > span {
     width: 1px;
-    background-color: #dddddd;
+    background-color: var(--grey);
     height: 24px;
 }
 
 .header-center > .search-menu {
-    fill: #fff;
+    fill: var(--white);
     background-color: #ff385c;
     padding: 3px;
     border-radius: 50%;
