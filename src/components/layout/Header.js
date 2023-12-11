@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Header.css"
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageSharpIcon from '@mui/icons-material/LanguageSharp';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import { Avatar } from '@mui/material';
+import Search from "../Search"
 
 const Header = () => {
+  const [showSearch, setSearch] = useState(false)
   return (
     <div className="header">
       <img 
@@ -19,7 +21,9 @@ const Header = () => {
         <button>Any week</button>
         <span></span>
         <button className="guests">Add guests</button>
-        <SearchIcon className="search-menu"/>
+        {showSearch && <Search />}
+        <SearchIcon className="search-menu" 
+        onClick={() => setSearch(!showSearch)}/>
       </div>
 
       <div className="header-right">
