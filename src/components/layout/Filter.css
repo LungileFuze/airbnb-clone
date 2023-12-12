@@ -4,8 +4,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow-x: auto;
-    width: 60%;
+    overflow-x: hidden;
+    position: fixed;
+    background-color: var(--white);
+   z-index: 100;
   }
   
   .links-box {

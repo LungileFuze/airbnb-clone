@@ -1,0 +1,13 @@
+.home {
+    margin-top: 105px;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: -45px;
+}
