@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-terms">
-        <span>&&copy: 2023 AirBnB Clone, Inc</span>
+        <span>&copy; 2023 AirBnB Clone, Inc</span>
         <span>Privacy . Terms . Sitemap</span>
       </div>
       <div className="footer-socials">

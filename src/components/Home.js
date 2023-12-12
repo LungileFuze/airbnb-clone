@@ -57,7 +57,7 @@ const Home = () => {
         />
 
         <Card
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU"
+          src="https://www.travelandleisure.com/thmb/S4P5mDA4xWR4SqJUXh0ac3udxrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-blackberry-mountain-04-SOUTHRESORTWB23-f50842b9002646c79e652b6611d34a02.jpg"
           title="Morgans Bay, South Africa"
           description="On the beach"
           price="R12,000 night"
@@ -65,14 +65,14 @@ const Home = () => {
       </div>
       <div className="home-section">
         <Card
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU"
+          src="https://www.travelandleisure.com/thmb/Ukr8xJalMC2v6JBvvpJX63Op9RY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-taos-skybox-stargazer-retreat-new-mexico-NEWBNBCAT0123-3c517736242d43df8ed32e49ea62909b.jpg"
           title="Morgans Bay, South Africa"
           description="On the beach"
           price="R12,000 night"
         />
 
         <Card
-          src="https://th.bing.com/th/id/OIP.bQfEVo3JfNT-rkaUIWRqawHaE9?w=271&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+          src="https://a0.muscache.com/im/pictures/miso/Hosting-19361565/original/bce72e85-950f-46bc-95dc-17b890e176ef.jpeg?im_w=1200"
           title="Morgans Bay, South Africa"
           description="On the beach"
           price="R12,000 night"
@@ -86,7 +86,7 @@ const Home = () => {
         />
 
         <Card
-          src="https://th.bing.com/th/id/OIP.9pu1OmKZhTwYz93rDUXjxAHaFe?w=244&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+          src="https://www.travelandleisure.com/thmb/p7mD1crTCp3N1sJpOE-dwIg4pjQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/airbnb-home-houses-geopod-ny-AIRDOME0421-86a85e9d3b224fcebec368110700703a.jpg"
           title="Morgans Bay, South Africa"
           description="On the beach"
           price="R12,000 night"
