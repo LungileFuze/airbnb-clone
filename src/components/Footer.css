@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.footer-terms > span {
+    padding: 7px;
+    font-size: 14px;
+}
+
+.footer-socials > span {
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.footer-socials:nth-child(2) {
+    margin-bottom: 2px;
+}

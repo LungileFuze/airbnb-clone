@@ -86,7 +86,7 @@ const Home = () => {
         />
 
         <Card
-          src="https://th.bing.com/th/id/OIP.bQfEVo3JfNT-rkaUIWRqawHaE9?w=271&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+          src="https://th.bing.com/th/id/OIP.9pu1OmKZhTwYz93rDUXjxAHaFe?w=244&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
           title="Morgans Bay, South Africa"
           description="On the beach"
           price="R12,000 night"

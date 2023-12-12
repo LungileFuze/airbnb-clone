@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { links } from "../../assets/image-links";
 import "./Filter.css"
 import TuneRoundedIcon from '@mui/icons-material/TuneRounded';
-import { TabScrollButton } from '@mui/material';
+// import { TabScrollButton } from '@mui/material';
 
 const Banner = () => {
   const [ selectedFilter, setSelectedFilter ] = useState("")
@@ -28,7 +28,7 @@ const Banner = () => {
         </div>
         
       ))}
-      <TabScrollButton variant="scrollable"/>
+      {/* <TabScrollButton variant="scrollable"/> */}
       <span>
     <button><TuneRoundedIcon/>filters</button>
     </span>
