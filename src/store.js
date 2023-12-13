@@ -3,7 +3,7 @@ import {thunk} from "redux-thunk"
 import { composeWithDevTools} from "redux-devtools-extension"
 import { listingListReducer } from "./reducers/listingReducers"
 
-const reducer = combineReducers({listList: listingListReducer})
+const reducer = combineReducers({listingList: listingListReducer})
 
 const initialState = {}
 
