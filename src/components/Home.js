@@ -1,11 +1,40 @@
-import React from "react";
+import React, {useEffect} from "react";
+import { useDispatch, useSelector } from "react-redux";
 import Card from "./Card";
 import "./Home.css";
+import {listListing} from "../actions/listingActions"
 
 const Home = () => {
+  const dispatch = useDispatch()
+
+  const listingList = useSelector(state => state.listingList)
+  const { loading, error, listings} = listingList
+
+  useEffect(() => {
+    dispatch(listListing())
+  }, [dispatch])
+
+
   return (
     <div className="home">
-      <div className="home-section">
+      {loading ? (
+        <h2>Loading...</h2>
+      ) : error ? (
+        <h3>{error}</h3>
+      ) : (
+        <div className="home-section">
+          {listings.map((listing) => (
+            <Card
+            key={listing.id}
+            src={listing.img}
+            title={listing.title}
+            description={listing.description}
+            price={listing.price}
+          />
+          ))}
+        </div>
+      )}
+      {/* <div className="home-section">
         <Card
           src="https://www.travelandleisure.com/thmb/BJupPeakYV7RY_vQQnmvrKAl7LU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/soneva-jani-sunset-view-maldives-SONEVA0421-74b37591d80441ce87831a41da518e49.jpg"
           title="Morgans Bay, South Africa"
@@ -91,7 +120,7 @@ const Home = () => {
           description="On the beach"
           price="R12,000 night"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
