@@ -1,13 +1,21 @@
 import React, {useState} from 'react'
-import "./Header.css"
+import { useDispatch } from 'react-redux';
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageSharpIcon from '@mui/icons-material/LanguageSharp';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import { Avatar } from '@mui/material';
 import Search from "../Search"
+import { openModal } from '../../actions/modalAction';
+import Login from "../Login"
+import "./Header.css"
 
 const Header = () => {
   const [showSearch, setSearch] = useState(false)
+  const dispatch = useDispatch()
+
+  const openModalHandle = () => {
+    dispatch(openModal("open", <Login />))
+  }
   return (
     <div className="header">
       <img 
@@ -30,7 +38,7 @@ const Header = () => {
         <p>Airbnb your home</p>
         <LanguageSharpIcon />
         <span className="profile">
-          <MenuSharpIcon fontSize="small"/>
+          <MenuSharpIcon fontSize="small" onClick={openModalHandle}/>
           <Avatar className="avatar" sx={{ width: 32, height: 32 }}/>
         </span>
         
